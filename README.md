@@ -312,7 +312,7 @@ Ejemplo – prefijo modulo: s – sistema
 
 **Indicar el módulo al final del nombre a consideración**
  
-Documentar Objetos
+*Documentar Objetos
 
 Todos los objetos deberán ser documentados utilizando un comentario en la parte superior de
 la definición de los objetos con el fin de describir el objetivo de cada uno y poner en contexto al programador sobre su funcionalidad.
