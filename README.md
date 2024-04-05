@@ -69,23 +69,32 @@ La calidad del entregable final se califica con un 90% del 100 que se esperaba p
 
 Optimización de la Interacción con Clientes:
 
-El objetivo principal es mejorar la interacción con los clientes a través de una plataforma que permite un acceso rápido y fácil a la información relevante de cada cliente. Esto se logra mediante una interfaz intuitiva y funciones simplificadas para la inclusión, modificación y eliminación de datos.
+El objetivo principal es mejorar la interacción con los clientes a través de una plataforma 
+que permite un acceso rápido y fácil a la información relevante de cada cliente.
+Esto se logra mediante una interfaz intuitiva y funciones simplificadas para la inclusión, modificación y eliminación de datos.
 
 Integración de Sistemas Empresariales:
 
-Establecer la funcionalidad para vincular los sistemas de la empresa con los de cada cliente. Este objetivo busca lograr una integración perfecta que maximice la eficiencia operativa y la transparencia en las relaciones comerciales.
+Establecer la funcionalidad para vincular los sistemas de la empresa con los de cada cliente. 
+Este objetivo busca lograr una integración perfecta que maximice la eficiencia operativa y la transparencia en las relaciones comerciales.
 
 Eficiencia en la Gestión de Clientes:
 
-Desarrollar una sólida infraestructura de administración de clientes que permita almacenar, organizar y gestionar eficientemente la información de cada cliente. Esto asegura una actualización constante y precisa de los datos, facilitando la toma de decisiones informadas.
+Desarrollar una sólida infraestructura de administración de clientes que permita almacenar, 
+organizar y gestionar eficientemente la información de cada cliente.
+Esto asegura una actualización constante y precisa de los datos, facilitando la toma de decisiones informadas.
 
 Transparencia en la Relación Comercial:
 
-Crear un sistema robusto para definir y administrar contratos y servicios para cada cliente. Este objetivo garantiza una transparencia total en las relaciones comerciales, asegurando una prestación de servicios alineada con las expectativas del cliente.
+Crear un sistema robusto para definir y administrar contratos y servicios para cada cliente. 
+Este objetivo garantiza una transparencia total en las relaciones comerciales, asegurando una 
+prestación de servicios alineada con las expectativas del cliente.
 
 Análisis y Optimización de Costos:
 
-Registrar minuciosamente los costos asociados con la gestión y el soporte de sistemas para los clientes. Este objetivo busca facilitar un análisis detallado de los costos, permitiendo una toma de decisiones informada y la optimización de recursos.
+Registrar minuciosamente los costos asociados con la gestión y el soporte de sistemas para los clientes.
+Este objetivo busca facilitar un análisis detallado de los costos, permitiendo una toma
+de decisiones informada y la optimización de recursos.
 
 <!-- Organigrama -->
 #### Organigrama.
@@ -152,7 +161,8 @@ Todo contenido agregado al sistema debe respetar lo siguiente para mantener el o
 
 ### Bases de Datos
 
-Los objetos de las bases de datos y ellas mismas deben ser nombrados con prefijos que representen el tipo de objeto que se está creando. Para nombrar las bases de datos se seguirán las reglas:
+Los objetos de las bases de datos y ellas mismas deben ser nombrados con prefijos que 
+representen el tipo de objeto que se está creando. Para nombrar las bases de datos se seguirán las reglas:
 - Utilizar sustantivos.
 - Usar todo en mayúsculas.
 - Hacer uso del prefijo "BD".
@@ -229,7 +239,8 @@ Ejemplo:
 
 ### Llaves Primarias (Primary Key)
 
-Nombrar las llaves primarias utilizando el prefijo “pk”, seguido del nombre de la tabla a la que pertenece la llave y el nombre del atributo al que hace referencia la llave, separados por guion bajo.
+Nombrar las llaves primarias utilizando el prefijo “pk”, seguido del nombre de la tabla a la que pertenece
+la llave y el nombre del atributo al que hace referencia la llave, separados por guion bajo.
 
 Ejemplo:
 
@@ -259,7 +270,8 @@ Ejemplo:
 
 ### Declaración de Constantes
 
-Para la declaración de constantes en SQL se usa el prefijo del tipo de dato en minúsculas y el nombre que se le quiera dar a la constante en mayúsculas, si la constante tiene más de una palabra debe de separarlo por un guion bajo.
+Para la declaración de constantes en SQL se usa el prefijo del tipo de dato en minúsculas y el
+nombre que se le quiera dar a la constante en mayúsculas, si la constante tiene más de una palabra debe de separarlo por un guion bajo.
 
 Ejemplo:
 
@@ -269,7 +281,8 @@ Ejemplo:
 
 ### Procedimientos Almacenados, Funciones, Triggers y Vistas
 
-También se manejarán algunas opciones en SQL los cuales son Funciones, Procedimientos Almacenados, Vistas y Disparadores. Para cada uno de estos se asignará un prefijo:
+También se manejarán algunas opciones en SQL los cuales son Funciones, Procedimientos Almacenados, Vistas y Disparadores.
+Para cada uno de estos se asignará un prefijo:
 
 | Tipo                   | Prefijo |
 |------------------------|---------|
@@ -278,7 +291,8 @@ También se manejarán algunas opciones en SQL los cuales son Funciones, Procedi
 | Vista - View           | vs      |
 | Función - Function     | fu      |
 
-Para nombrar estos objetos, es necesario utilizar palabras que hagan referencia al contenido o funcionalidad de estos, también se debe usar CamelCase y hacer uso del prefijo correspondiente.
+Para nombrar estos objetos, es necesario utilizar palabras que hagan referencia al contenido o
+funcionalidad de estos, también se debe usar CamelCase y hacer uso del prefijo correspondiente.
 
 Ejemplo: 
 
@@ -299,10 +313,10 @@ Ejemplo – prefijo modulo: s – sistema
 **Indicar el módulo al final del nombre a consideración**
  
 Documentar Objetos
-Todos los objetos deberán ser documentados utilizando un comentario en la parte superior de la definición de los objetos con el fin de describir el objetivo de cada uno y poner en contexto al programador sobre su funcionalidad.
+Todos los objetos deberán ser documentados utilizando un comentario en la parte superior de
+la definición de los objetos con el fin de describir el objetivo de cada uno y poner en contexto al programador sobre su funcionalidad.
 
 Ejemplo:
-
 
 /* El objetivo principal de este [nombre objeto] es el de [breve descripción] */
 Seguido por la declaración del objeto.
@@ -316,8 +330,7 @@ La palabra BEGIN debe ser seguida por un comentario con el formato:
 
 -- Inicio de [nombre de la condición que abre]
 La palabra END debe ser seguida por un comentario con el formato (Respetando el nombre que se dio en el comentario de la palabra Begin)
-sql
-Copy code
+
 -- Fin de [nombre de la condición que cierra]
 Ejemplo:
 
@@ -331,6 +344,7 @@ BEGIN -- Inicio de [nombre de la condición que abre]
   Código  
 END -- Fin de [nombre de la condición que cierra]
 Comentarios en el código
+
 Al agregarse comentarios en el código, deberán situarse justo en la línea superior de la instrucción o sentencia, sin líneas en blanco de por medio.
 
 Ejemplo:
@@ -342,7 +356,8 @@ Al momento de realizar consultas pueden ser estructuradas siguiendo las siguient
 
 Renombrar todos los campos según los estándares definidos de columnas, para que al consultarse tengan un nombre asignado, en caso de que la consulta conserve el nombre original este paso puede omitirse.
 Uso de diccionario de datos, según el formato definido.
-Evitar el uso del comodín (*) en bloques SELECT o INSERT. Siempre hacer referencia a las columnas involucradas. Esto evitara los errores, si es que la tabla es modificada agregando columnas.
+Evitar el uso del comodín (*) en bloques SELECT o INSERT. Siempre hacer referencia a las columnas involucradas. 
+Esto evitara los errores, si es que la tabla es modificada agregando columnas.
 Agrupar la vista de forma que sea posible visualizarla en pantalla sin necesidad del scroll horizontal, es decir, mantener una longitud coherente para las líneas de código.
 No se deberá hacer uso de cursores.
 Las columnas usadas en la comparación del bloque JOIN deberán ser indexados.
@@ -363,7 +378,8 @@ full outer join tPuesto tp on tu.idPuesto = tp.idPuesto
 where idSolicitud = 1
 group by idSolicitud
 Recomendaciones adicionales
-EL bloque SELECT de una consulta SQL no deberá contener subconsultas. Estas deben ser trasladadas al bloque FROM.
+EL bloque SELECT de una consulta SQL no deberá contener subconsultas.
+Estas deben ser trasladadas al bloque FROM.
 
 
 SELECT (SELECT COUNT (id) FROM tabla) AS fila 
@@ -392,7 +408,8 @@ FROM tabla t
 JOIN vista v ON t.id=v.id
 
 /* Realizar JOIN directo con las tablas que forman la vista */
-De ser posible, procure el uso del bloque WHERE para devolver solo las filas necesarias y evite el uso de expresiones de manipulación de datos en este bloque, en su lugar trasládelos al bloque SELECT.
+De ser posible, procure el uso del bloque WHERE para devolver solo las filas necesarias y evite el uso de expresiones de
+manipulación de datos en este bloque, en su lugar trasládelos al bloque SELECT.
 
 
 SELECT columna 
