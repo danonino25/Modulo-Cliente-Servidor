@@ -64,6 +64,7 @@ Elaboración de los siguientes módulos:
 El tiempo de desarrollo del proyecto abarcó un total de 2 meses y una semana.
 Costo???
 La calidad del entregable final se califica con un 90% del 100 que se esperaba por parte de la empresa.
+
 <!-- Objetivos -->
 #### Objetivos.
 
@@ -123,12 +124,15 @@ Agregar la imagen de los Casos de Uso.
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
 * Vista Cliente-Servidor.
+#
 ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/e030ef84-eaec-4c5d-8f39-020ee2002b84)
 
 *Editar URL de acceso.
+#
 ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/39b9551f-052d-416e-9a5a-8e481d738fd3)
 
 *Editar URL de servidor.
+#
 ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/0917e30c-75af-4607-92d0-fa80f852071c)
 
 
