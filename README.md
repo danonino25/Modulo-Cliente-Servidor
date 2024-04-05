@@ -313,12 +313,13 @@ Ejemplo – prefijo modulo: s – sistema
 **Indicar el módulo al final del nombre a consideración**
  
 Documentar Objetos
+
 Todos los objetos deberán ser documentados utilizando un comentario en la parte superior de
 la definición de los objetos con el fin de describir el objetivo de cada uno y poner en contexto al programador sobre su funcionalidad.
 
 Ejemplo:
 
-/* El objetivo principal de este [nombre objeto] es el de [breve descripción] */
+*El objetivo principal de este [nombre objeto] es el de [breve descripción] 
 Seguido por la declaración del objeto.
 
 Comentarios para las palabras reservadas BEGIN/END
@@ -365,8 +366,8 @@ Evitar el uso de índices duplicados.
 Se recomienda el uso de indexado en columnas con alta recurrencia en consultas.
 Minimizar el uso de tablas temporales, en su caso optar por el uso de variables de tipo tabla.
 Realizar un salto de línea para identificar cada bloque dentro de las sentencias SQL.
-Ejemplo:
 
+Ejemplo:
 
 select tu.sNombreUsuario as sNombreUsuario, 
 tc.sCorreo as sCorreoUsuarip
@@ -377,6 +378,7 @@ right join tArea ta on tu.idArea = ta.idArea
 full outer join tPuesto tp on tu.idPuesto = tp.idPuesto
 where idSolicitud = 1
 group by idSolicitud
+
 Recomendaciones adicionales
 EL bloque SELECT de una consulta SQL no deberá contener subconsultas.
 Estas deben ser trasladadas al bloque FROM.
@@ -407,7 +409,7 @@ SELECT t.columna, v.columna
 FROM tabla t 
 JOIN vista v ON t.id=v.id
 
-/* Realizar JOIN directo con las tablas que forman la vista */
+* Realizar JOIN directo con las tablas que forman la vista 
 De ser posible, procure el uso del bloque WHERE para devolver solo las filas necesarias y evite el uso de expresiones de
 manipulación de datos en este bloque, en su lugar trasládelos al bloque SELECT.
 
@@ -416,7 +418,6 @@ SELECT columna
 FROM tabla 
 WHERE CONVERT(DATE,columna) = '2020-01-01'
 
-/
 
 
 
