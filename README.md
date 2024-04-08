@@ -200,9 +200,8 @@ Se debe definir un estándar por proyecto para controlar el agrupamiento de las 
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
-![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/3e2a450e-f581-4219-a0a6-aa25ee3f9016)
 
-
+![mvc](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/9caf3d89-e62f-4814-b2ec-feb13cb6c855)
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
