@@ -49,9 +49,9 @@
 <!-- Acerca del proyecto -->
 ## Acerca del módulo.
 Elaboración de las siguientes funcionalidades:
-  *Vista de los clientes que solicitan servicios que se encuetren en el mismo pool de aplicaciones.
-  *Vista de los detalles de cada cliente mostrando sus aplicaciones y la ubicacion de su base o bases de datos.
-  *Funcionalidad para generar reportes con formato ECXEL aplicando filtros a estos.
+  * Vista de los clientes que solicitan servicios que se encuetren en el mismo pool de aplicaciones.
+  * Vista de los detalles de cada cliente mostrando sus aplicaciones y la ubicacion de su base o bases de datos.
+  * Funcionalidad para generar reportes con formato ECXEL aplicando filtros a estos.
 
 <!-- Descripción -->
 #### Descripción.
