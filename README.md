@@ -33,7 +33,6 @@
       <ul>
         <li><a href="#estándares-codificación">Estándares Codificación</a></li>
         <li><a href="#arquitectura">Arquitectura</a></li>
-        <li><a href="#código-fuente">Código Fuente</a></li>
       </ul>
     </li>      
     <li>
@@ -43,10 +42,6 @@
         <li><a href="#ejecución">Ejecución</a></li>
       </ul>
     </li>       
-    <li><a href="#guias">Guias</a></li>
-    <li><a href="#contribucion">Contribución</a></li>
-    <li><a href="#licencia">licencia</a></li>
-    <li><a href="#contacto">Contacto</a></li>
     <li><a href="#participantes">Participantes</a></li>
   </ol>
 </details>
@@ -106,27 +101,80 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
+## Requerimientos Módulo Cliente-Servidor
 
+### Requisitos Funcionales
+
+| No. | Requisito                     | Descripción                                                                                              |
+|-----|-------------------------------|----------------------------------------------------------------------------------------------------------|
+| 1   | Administración de Sistemas    | Permitir al administrador agregar, modificar y eliminar sistemas asociados a cada cliente en la matriz.  |
+| 2   | Visualización de Clientes     | Mostrar de manera clara y ordenada la tabla de los clientes, con opciones de filtrado y búsqueda.       |
+| 3   | Reportes de sistemas por cliente | Generar reportes de la matriz de sistemas de los clientes en formato descargable (Excel).             |
+
+### Requisitos No Funcionales
+
+| No. | Requisito                     | Descripción                                                                                              |
+|-----|-------------------------------|----------------------------------------------------------------------------------------------------------|
+| 1   | Seguridad                     | Implementar medidas de seguridad como autenticación de dos factores, encriptación de datos, etc.        |
+| 2   | Rendimiento                   | Garantizar tiempos de respuesta rápidos incluso con grandes cantidades de datos en la matriz.           |
+| 3   | Interfaz Intuitiva            | Desarrollar una interfaz de usuario amigable y fácil de usar para facilitar la navegación y la interacción. |
+| 4   | Compatibilidad                | Asegurar que la aplicación sea compatible con los principales navegadores web (Chrome, Firefox, Safari, etc.). |
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
-Agregar la imagen de los Casos de Uso.
+### Casos de Uso:
 
+#### 1. Visualizar los sistemas para un Cliente
+
+- **ID Caso de Prueba:** CP001
+- **Descripción:** Verificar que un administrador pueda visualizar los sistemas para un cliente en la matriz.
+- **Precondiciones:** El administrador ha iniciado sesión y está en la sección de "Matriz".
+- **Pasos:**
+   1. Dar clic sobre algún cliente en la tabla de clientes.
+   2. Asociar el sistema a un cliente.
+- **Resultado Esperado:** El sistema debería mostrar los sistemas en la matriz asociados al cliente.
+
+#### 2. Generar Reporte de Sistemas por Cliente
+
+- **ID Caso de Prueba:** CP002
+- **Descripción:** Verificar que un administrador pueda generar un reporte de sistemas por cliente en formato Excel.
+- **Precondiciones:** El administrador ha iniciado sesión y está en la sección de "Matriz" con sistemas asociados a clientes.
+- **Pasos:**
+   1. Seleccionar "Generar Reporte".
+   2. Seleccionar el cliente para el cual se generará el reporte.
+   3. Solicitar generación del reporte.
+- **Resultado Esperado:** El sistema debería descargar un archivo Excel con la lista de sistemas asociados al cliente seleccionado.
+
+#### 3. Ver Detalles de un Cliente y sus Sistemas
+
+- **ID Caso de Prueba:** CP003
+- **Descripción:** Verificar que un administrador pueda ver los detalles de un cliente y sus sistemas asociados.
+- **Precondiciones:** El usuario ha iniciado sesión y está en la sección de "Matriz" con clientes y sistemas existentes.
+- **Pasos:**
+   1. Seleccionar el cliente del cual se desea ver los detalles.
+   2. El sistema muestra la información detallada del cliente y sus sistemas asociados.
+- **Resultado Esperado:** El sistema debería mostrar correctamente los detalles del cliente y sus sistemas.
+
+### Diagrama de los Casos de Uso:
 
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
-### Vista Cliente-Servidor.
+### Tabla Cliente-Servidor.
 #
-![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/e030ef84-eaec-4c5d-8f39-020ee2002b84)
+![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/cd13de8b-8276-4e3d-835e-ff3e501d92b4)
 
-### Editar URL de acceso.
-#
-![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/39b9551f-052d-416e-9a5a-8e481d738fd3)
 
-### Editar URL de servidor.
+### Detalles de sistemas por cliente.
 #
-![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/0917e30c-75af-4607-92d0-fa80f852071c)
+![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/2c1aa7df-5f99-4426-902f-3cb96bf03d58)
+
+
+### Generar Reporte.
+# 
+![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/c98d9523-a5e4-4bdb-8724-cdf7dd011c3c)
+
+
 
 
 <!-- Modelo Relacional -->
@@ -136,7 +184,6 @@ Agregar la imagen de los Casos de Uso.
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
 Esquema de las clases empleadas (atributos y sus métodos).
-
 
 
 <!-- Implementación del proyecto -->
