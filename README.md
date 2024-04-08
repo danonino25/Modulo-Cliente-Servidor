@@ -257,7 +257,7 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 <!-- Casos de prueba -->
 #### Casos de prueba.
  ##### Link a documento de pruebas: 
-  ![Casos de prueba](https://docs.google.com/spreadsheets/d/1HRTT9GVvqO9kPoE8oA3uWiqDFSEFTc3Vn1U7cqJfpkw/edit?usp=sharing)
+[Casos de prueba](https://docs.google.com/spreadsheets/d/1HRTT9GVvqO9kPoE8oA3uWiqDFSEFTc3Vn1U7cqJfpkw/edit?usp=sharing)
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
