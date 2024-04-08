@@ -1,6 +1,6 @@
 # Integradora II
 
-## contenido
+## Módulo Cliente-Servidor
 <details>
   <summary>Tabla contenidos</summary>
   <ol>
