@@ -137,9 +137,6 @@ Agregar la imagen de los Casos de Uso.
 #### Diagrama de Clases.
 Esquema de las clases empleadas (atributos y sus métodos).
 
-<!-- Diagrama de Componentes -->
-#### Diagrama de Componentes.
-Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
 
 
 <!-- Implementación del proyecto -->
@@ -203,7 +200,7 @@ Se debe definir un estándar por proyecto para controlar el agrupamiento de las 
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
-![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/d543710b-f0d0-48e3-b6ee-f5a71a261005)
+![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/3e2a450e-f581-4219-a0a6-aa25ee3f9016)
 
 
 
