@@ -62,10 +62,6 @@ La calidad del entregable final se califica con un 90% del 100 que se esperaba p
 <!-- Objetivos -->
 #### Objetivos.
 
-Integración de Sistemas Empresariales:
-
-Establecer la funcionalidad para vincular los sistemas de la empresa con  cada cliente. 
-Este objetivo busca lograr una integración perfecta que maximice la eficiencia operativa y la transparencia en las relaciones comerciales.
 
 Eficiencia en la Gestión de Clientes:
 
@@ -78,12 +74,6 @@ Transparencia en la Relación Comercial:
 Crear un sistema robusto para definir y administrar contratos y servicios para cada cliente. 
 Este objetivo garantiza una transparencia total en las relaciones comerciales, asegurando una 
 prestación de servicios alineada con las expectativas del cliente.
-
-Análisis y Optimización de Costos:
-
-Registrar minuciosamente los costos asociados con la gestión y el soporte de sistemas para los clientes.
-Este objetivo busca facilitar un análisis detallado de los costos, permitiendo una toma
-de decisiones informada y la optimización de recursos.
 
 <!-- Organigrama -->
 #### Organigrama.
