@@ -176,10 +176,6 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 Esquema de las clases empleadas (atributos y sus métodos).
 
 
-<!-- Implementación del proyecto -->
-## Implementación.
-En ésta sección se describe  los artefactos generados en base a la solución.
-
 <!-- Estándares de Codificación -->
 ## Estándares de Codificación
 
