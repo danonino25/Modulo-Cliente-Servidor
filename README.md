@@ -97,7 +97,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 | No. | Requisito                     | Descripción                                                                                              |
 |-----|-------------------------------|----------------------------------------------------------------------------------------------------------|
-| 1   | Administración de Sistemas    | Permitir al administrador agregar, modificar y eliminar sistemas asociados a cada cliente en la matriz.  |
+| 1   | Visualización de Sistemas    | Permitir al administrador tener una vista general de los sistemas asociados a cada cliente en la matriz.  |
 | 2   | Visualización de Clientes     | Mostrar de manera clara y ordenada la tabla de los clientes, con opciones de filtrado y búsqueda.       |
 | 3   | Reportes de sistemas por cliente | Generar reportes de la matriz de sistemas de los clientes en formato descargable (Excel).             |
 
@@ -107,7 +107,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 |-----|-------------------------------|----------------------------------------------------------------------------------------------------------|
 | 1   | Seguridad                     | Implementar medidas de seguridad como autenticación de dos factores, encriptación de datos, etc.        |
 | 2   | Rendimiento                   | Garantizar tiempos de respuesta rápidos incluso con grandes cantidades de datos en la matriz.           |
-| 3   | Interfaz Intuitiva            | Desarrollar una interfaz de usuario amigable y fácil de usar para facilitar la navegación y la interacción. |
+| 3   | Interfaz apegada a los estándares marcados por la empresa            | Desarrollar una interfaz de usuario amigable y fácil de usar para facilitar la navegación y la interacción. |
 | 4   | Compatibilidad                | Asegurar que la aplicación sea compatible con los principales navegadores web (Chrome, Firefox, Safari, etc.). |
 
 <!-- Diagrama de Casos de Uso -->
@@ -116,7 +116,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 #### 1. Visualizar los sistemas para un Cliente
 
-- **ID Caso de Prueba:** CP001
+- **ID Caso de Uso:** CP001
 - **Descripción:** Verificar que un administrador pueda visualizar los sistemas para un cliente en la matriz.
 - **Precondiciones:** El administrador ha iniciado sesión y está en la sección de "Matriz".
 - **Pasos:**
@@ -126,7 +126,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 #### 2. Generar Reporte de Sistemas por Cliente
 
-- **ID Caso de Prueba:** CP002
+- **ID Caso de Uso:** CP002
 - **Descripción:** Verificar que un administrador pueda generar un reporte de sistemas por cliente en formato Excel.
 - **Precondiciones:** El administrador ha iniciado sesión y está en la sección de "Matriz" con sistemas asociados a clientes.
 - **Pasos:**
@@ -137,7 +137,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 #### 3. Ver Detalles de un Cliente y sus Sistemas
 
-- **ID Caso de Prueba:** CP003
+- **ID Caso de Uso:** CP003
 - **Descripción:** Verificar que un administrador pueda ver los detalles de un cliente y sus sistemas asociados.
 - **Precondiciones:** El usuario ha iniciado sesión y está en la sección de "Matriz" con clientes y sistemas existentes.
 - **Pasos:**
