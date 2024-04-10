@@ -56,24 +56,14 @@ Elaboración de las siguientes funcionalidades:
 <!-- Descripción -->
 #### Descripción.
 El tiempo de desarrollo del proyecto abarcó un total de 2 meses y una semana.
-Costo???
 La calidad del entregable final se califica con un 90% del 100 que se esperaba por parte de la empresa.
 
 <!-- Objetivos -->
 #### Objetivos.
 
-
 Eficiencia en la Gestión de Clientes:
 
-Desarrollar una sólida infraestructura de administración de clientes que permita almacenar, 
-organizar y gestionar eficientemente la información de cada cliente.
-Esto asegura una actualización constante y precisa de los datos, facilitando la toma de decisiones informadas.
-
-Transparencia en la Relación Comercial:
-
-Crear un sistema robusto para definir y administrar contratos y servicios para cada cliente. 
-Este objetivo garantiza una transparencia total en las relaciones comerciales, asegurando una 
-prestación de servicios alineada con las expectativas del cliente.
+Diseñar e implementar  una interfáz que contenga una tabla con los detalles de los sitemas que se encuentran agregados a cada cliente para eficientar la administración de los datos recabados por la empresa y tener mejor accesibilidad y a su vez poder generar informes en format EXCEL.
 
 <!-- Organigrama -->
 #### Organigrama.
