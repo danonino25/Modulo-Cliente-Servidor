@@ -229,7 +229,6 @@ Se debe definir un estándar por proyecto para controlar el agrupamiento de las 
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
-En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
