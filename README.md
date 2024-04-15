@@ -136,6 +136,7 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 - **Resultado Esperado:** El sistema debería mostrar correctamente los detalles del cliente y sus sistemas.
 
 ### Diagrama de los Casos de Uso:
+#### ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/0f007df0-8dab-4d0b-b586-44a376e3d097)
 
 
 <!-- Diseño del proyecto -->
