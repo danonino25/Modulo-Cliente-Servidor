@@ -2,7 +2,7 @@
 
 ## Módulo Cliente-Servidor
 <details>
-  <summary>Tabla contenidos</summary>
+  <summary>TTabla de contenido</summary>
   <ol>
     <li>
       <a href="#acerca-del-módulo">Acerca del Módulo</a>
