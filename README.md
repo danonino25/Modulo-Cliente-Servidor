@@ -74,10 +74,14 @@ Diseñar e implementar  una interfaz que contenga una tabla con los detalles de 
 #### Diagrama Gantt.
 ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/fe1f687f-36e9-4c5b-907c-699eba13a20e)
 
+<!-- Casos de prueba -->
+#### Historias de usuario
+ ##### Link a documento de historias: 
+[Historias de usuario](https://docs.google.com/document/d/1HnNU9vYmhkJfOg0PqX9jHz_kT6WJYFrTD8UR35uGSiI/edit?usp=sharing)
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
-En ésta sección se indicará los artefactos generados en base a la solución.
+
 
 <!-- Requerimientos -->
 #### Requerimientos.
