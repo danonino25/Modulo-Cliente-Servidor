@@ -164,7 +164,8 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
- ##### ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/9cf454ca-90aa-4d21-82a9-3e172f61e62a)
+ ##### ![image](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/6a3e2efc-cd05-49f6-8221-9e7beffb7833)
+
 
 
 
