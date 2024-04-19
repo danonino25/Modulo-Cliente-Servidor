@@ -57,7 +57,14 @@ Elaboración de las siguientes funcionalidades:
 #### Descripción.
 El tiempo de desarrollo del proyecto abarcó un total de 2 meses y una semana.
 La calidad del entregable final se califica con un 90% del 100 que se esperaba por parte de la empresa.
-
+Tecnologías empleadas:
+      * FortiClient(VPN para conexión al servidor remoto)
+      * Tortoise SVN (Control de versiones y descarga del proyecto)
+      * Visual Studio 2022 ( ASP.NET , C# , JQuery , JavaScript)
+      * SQL Server 
+      * SQL Management Studio 2019
+Departamento al que afecta el módulo:
+ Diseñado para el departamento de TIC's de la empresa NAD Global.
 <!-- Objetivos -->
 #### Objetivos.
 
@@ -176,54 +183,7 @@ Diseñar e implementar  una interfaz que contenga una tabla con los detalles de 
 <!-- Estándares de Codificación -->
 ## Estándares de Codificación
 
-### Especificaciones generales
-
-Todo contenido agregado al sistema debe respetar lo siguiente para mantener el orden del código:
-- Se trabajará en el idioma predominante en la aplicación de software.
-- Todos los nombres de los objetos de base de datos deben tener coherencia con su uso, contenido o funcionalidad.
-- No usar caracteres especiales o la letra 'ñ' en el nombramiento de objetos en las bases de datos.
-
-### Bases de Datos
-
-Los objetos de las bases de datos y ellas mismas deben ser nombrados con prefijos que 
-representen el tipo de objeto que se está creando. Para nombrar las bases de datos se seguirán las reglas:
-- Utilizar sustantivos.
-- Usar todo en mayúsculas.
-- Hacer uso del prefijo "BD".
-- Usar palabras que identifiquen el objetivo de la base de datos.
-
-Ejemplo:
-
-[Prefijo] + [Identificador aplicativo] + [Cliente]*
-BDSGCEMPRESA
-
-
-### Tablas
-
-Las tablas se deben de categorizar en grupos para su fácil identificación y control. El nombre de la tabla se deberá de conformar por un prefijo en minúsculas, mismo que se utilizará dependiendo del tipo de tabla, seguido del nombre de la tabla, para lo cual es necesario considerar que se deben nombrar utilizando sustantivos y estructura camel case, es decir, iniciando con la primera letra de cada palabra en mayúsculas y el resto en minúscula. Además de usar palabras que identifiquen a los datos que se almacenan en las tablas para identificarlas fácilmente.
-
-
-
-Ejemplo:
-
-| Nombre de Tabla                       | Prefijo |
-|---------------------------------------|---------|
-| Control de Catálogos Estáticos        | ce      |
-| Control de Catálogos Parametrizables  | ct      |
-| Control de Tablas de Sistema          | ts      |
-| Control de Tablas de Log              | tl - tlog |
-| Control de Tablas Compuestas          | tr      |
-| Control de Históricos                 | th      |
-
-Se debe definir un estándar por proyecto para controlar el agrupamiento de las tablas, estas pueden ser definidas por módulo, por ejemplo:
-
-**SOP**
-
-| Nombre de Tabla                        | Prefijo |
-|----------------------------------------|---------|
-| Control de Tablas exclusivas para Aéreo       | taer    |
-| Control de Tablas exclusivas para Marítimo    | tmar    |
-| Control de Tablas exclusivas para Terrestre   | tter    |
+[Estándares](https://docs.google.com/document/d/1i8lkzp329RRrHhN9hIkFhgoltLPJIAxOIOccSPy1zXg/edit)
 
 
 
@@ -232,6 +192,12 @@ Se debe definir un estándar por proyecto para controlar el agrupamiento de las 
 #### Arquitectura.
 
 ![mvc](https://github.com/danonino25/Modulo-Cliente-Servidor/assets/116208398/9caf3d89-e62f-4814-b2ec-feb13cb6c855)
+
+<!-- Casos de prueba -->
+#### Manual de instalación.
+ ##### Link a documento del manual: 
+[Manual de instalación](https://docs.google.com/document/d/1lBUvIzTdSSxOawj_YkzYLu9_1JX-7MmERs-OyJlPw4g/edit?usp=sharing)
+
 
 <!-- Pruebas proyecto -->
 ## Pruebas.
