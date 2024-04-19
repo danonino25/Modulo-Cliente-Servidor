@@ -63,7 +63,7 @@ La calidad del entregable final se califica con un 90% del 100 que se esperaba p
 
 Eficiencia en la Gestión de Clientes:
 
-Diseñar e implementar  una interfáz que contenga una tabla con los detalles de los sitemas que se encuentran agregados a cada cliente para eficientar la administración de los datos recabados por la empresa y tener mejor accesibilidad y a su vez poder generar informes en format EXCEL.
+Diseñar e implementar  una interfaz que contenga una tabla con los detalles de los sistemas que se encuentran agregados a cada cliente para eficientar la administración de los datos recabados por la empresa y tener mejor accesibilidad y a su vez poder generar informes en format EXCEL.
 
 <!-- Organigrama -->
 #### Organigrama.
