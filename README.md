@@ -207,6 +207,11 @@ Diseñar e implementar  una interfaz que contenga una tabla con los detalles de 
  ##### Link a documento de pruebas: 
 [Casos de prueba](https://docs.google.com/spreadsheets/d/1HRTT9GVvqO9kPoE8oA3uWiqDFSEFTc3Vn1U7cqJfpkw/edit?usp=sharing)
 
+<!-- Ejecución -->
+#### Evidencia.
+ ##### Link a documento de pruebas: 
+[Casos de prueba](https://docs.google.com/document/d/1T0ipbvW1YWnb8pQBYZTPRFHQaiwXjbksTOqmbJ0Pk3E/edit?usp=sharing)
+
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
 Evidencia de Ejecución de Casos de prueba.
